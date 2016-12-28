@@ -7,6 +7,8 @@ public class Gemstone : MonoBehaviour {
 	public float yOffset = 0f;
 	public float interval = 1f;
 
+	public GameObject[] GemstoneBgs;
+	public int GemstoneType;
 
 	// Use this for initialization
 	void Start () {
